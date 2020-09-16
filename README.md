@@ -30,7 +30,7 @@ The Dimension of the dataset: 971 rows and 15 columns
 ![](images/TSS.png)
 
 **Feature Engineering Methods Used on the raw dataset:**
-1. 1-hot encoding     2. Normalization    3.Encoding
+1. 1-hot encoding     2. Normalization    
 
 Based on designations set by CCME(2005) to classify water based on WQI.
 **Class       	 WQI		          Notes**
