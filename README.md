@@ -9,7 +9,7 @@ An attempt has been made to develop models for predicting water quality index (W
 The water quality index (WQI) is an important tool to determine the drinking water quality in urban, rural and industrial areas. WQI is defined as an index reflecting the composite influence of different water quality parameters which is considered and taken for calculation of water quality index. The WQI measures the scope, frequency, and amplitude of water quality exceedances and then combines the three measures into one score. This calculation produces a score between 0 and 100. The higher the score the better the quality of water. The scores are then ranked into five categories.This is very fundamental and is an important part of urban planning.WQI scores are computed for each public water supply system that has been sampled in a sampling season. The same variables are used in the computation of the WQI for all public water supply systems.
 
 ## Flow Chart
-![](images/flow)
+![](images/flow.png)
 
 ## Data Collection
 <https://www.waterqualitydata.us/>
@@ -27,7 +27,7 @@ The Dimension of the dataset: 971 rows and 15 columns
 - WQI Turb (turbidity)
 
 **Dependence of WQI on TSS**
-![](images/TSS)
+![](images/TSS.png)
 
 **Feature Engineering Methods Used on the raw dataset:**
 1. 1-hot encoding     2. Normalization    3.Encoding
@@ -45,7 +45,7 @@ RMSE : 6.462242048880141
 max_error: 35.70102554961721
 
 **Actual WQI vs Predicted WQI**
-![](images/Viz4)
+![](images/Viz4.png)
 
 ## Logistic Regression: Results
 Accuracy  : 0.7474747474747475
@@ -57,4 +57,8 @@ Accuracy  : 0.7121212121212122
 Precision : 0.6902426211377618
 Recall    : 0.5879717813051146
 
+Scope for improvement : The dataset is highly imbalanced. Results will improve drastically with a balanced dataset.
 
+**Author**
+Rajarshi Maity 
+rajarshimaity3235@gmail.com
