@@ -57,8 +57,15 @@ Poor          	 0-44      	Conditions usually depart from natural or desirable l
 - Precision : 0.6902426211377618
 - Recall    : 0.5879717813051146
 
+## Predicting Water Quality using three layer ANN :Results
+ - Validation accuracy : 0.728
+ - test accuracy : 0.784
+ 
+ 
+
+
 Scope for improvement : The dataset is highly imbalanced. Results will improve drastically with a balanced dataset.
 
 **Author**
-Rajarshi Maity 
-rajarshimaity3235@gmail.com
+- Rajarshi Maity 
+- rajarshimaity3235@gmail.com
