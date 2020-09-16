@@ -41,21 +41,21 @@ Marginal      	45-64      	Conditions often depart from natural or desirable lev
 Poor          	 0-44      	Conditions usually depart from natural or desirable levels**
 
 ## Linear Regression : Results
-RMSE : 6.462242048880141
-max_error: 35.70102554961721
+- RMSE : 6.462242048880141
+- max_error: 35.70102554961721
 
 **Actual WQI vs Predicted WQI**
 ![](images/Viz4.png)
 
 ## Logistic Regression: Results
-Accuracy  : 0.7474747474747475
-Precision : 0.7585061443932412
-Recall    :  0.5384479717813051
+- Accuracy  : 0.7474747474747475
+- Precision : 0.7585061443932412
+- Recall    :  0.5384479717813051
 
 ## Decision Tree: Results
-Accuracy  : 0.7121212121212122
-Precision : 0.6902426211377618
-Recall    : 0.5879717813051146
+- Accuracy  : 0.7121212121212122
+- Precision : 0.6902426211377618
+- Recall    : 0.5879717813051146
 
 Scope for improvement : The dataset is highly imbalanced. Results will improve drastically with a balanced dataset.
 
