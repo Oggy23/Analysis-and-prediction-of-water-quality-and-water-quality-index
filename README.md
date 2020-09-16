@@ -61,7 +61,7 @@ Poor          	 0-44      	Conditions usually depart from natural or desirable l
  - Validation accuracy : 0.728
  - test accuracy : 0.784
  
- 
+ ![](images/loss.png)
 
 
 Scope for improvement : The dataset is highly imbalanced. Results will improve drastically with a balanced dataset.
